@@ -1,8 +1,9 @@
 #art {
     display: table;
     /* border-spacing: 1px; */
-    background-color: whitesmoke;
-    /* border: 5px solid #008ba3; */
+    background-color: black;
+    border: 5px solid black;
+    /* #008ba3; */
     margin-left: 10px;
     margin-right: 10px;
 
@@ -15,7 +16,8 @@
   }
   .pixel{
     display: table-cell;
-    background-color: #91beeb;
+    background-color: grey;
+    /* #91beeb; */
 
     padding: 3px;
     border-radius: 3px;
@@ -43,7 +45,8 @@
   border-radius: 8px;
   text-align: center;
   border: 2px solid whitesmoke;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 9px #999;
+  /* 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 
 .button:hover {background-color: rgb(6, 97, 124)}
